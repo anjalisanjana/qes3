@@ -1,0 +1,4 @@
+SignUp Page Terms and Conditions
+
+1) Entered Email Address should be valid
+2) Password created should not be explicitly mentioned in any of the folders 

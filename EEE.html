@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=2.0">
+        <title>EEE Department</title>
+        <link rel="stylesheet" href="style4.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      
+    </head>
+    <body>
+      <form action="connect3.php" method="post"> 
+        <section class="header">
+                           <div class="nav-links"></div>
+    <div class="quiz-container" id="quiz">
+        <div class="quiz-header">
+          <h2 id="question">Question Text</h2>
+          <ul>
+              <h3>1. The S.I unit of Power is </h3><br/>
+            <li>
+              <input type="radio" name="answer" id="a" class="answer">
+              <label for="a" id="a_text">Henry</label>
+            </li>
+    <br/>
+            <li>
+              <input type="radio" name="answer" id="b" class="answer">
+              <label for="b" id="b_text">coulomb</label>
+            </li>
+    <br/>
+            <li>
+              <input type="radio" name="answer" id="c" class="answer">
+              <label for="c" id="c_text">watt</label>
+            </li>
+    <br/>
+            <li>
+              <input type="radio" name="answer" id="d" class="answer">
+              <label for="d" id="d_text">watt-hour</label>
+            </li>
+    
+          </ul>
+        </div>
+    <br/>
+        <button id="submit">Submit</button>
+    
+      </div>
+     
+      
+
+<br/>
+<br/>
+<br/>
+<h4>Click on the icon to toggle between like / dislike:</h4>
+<br/>
+<i onclick="myFunction(this)" class="fa fa-thumbs-up"></i>
+
+
+<br/><br/>
+<h4>Comments:</h4>
+<textarea rows="4" cols="50" name="comment" form="usrform">
+    Enter text here...</textarea>
+  </section>
+  </form>
+  <script>
+    function myFunction(x) {
+      x.classList.toggle("fa-thumbs-down");
+    }
+    </script>
+</body>
+            </html>
